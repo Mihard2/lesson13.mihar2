@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'ArvoRegular';
+    src: url('/..fonts/ArvoRegular.eot');
+    src: url('/..fonts/ArvoRegular.eot') format('embedded-opentype'),
+         url('/..fonts/ArvoRegular.woff2') format('woff2'),
+         url('/..fonts/ArvoRegular.woff') format('woff'),
+         url('/..fonts/ArvoRegular.ttf') format('truetype'),
+         url('/..fonts/ArvoRegular.svg#ArvoRegular') format('svg');
+}
+@font-face {
+	font-family: 'notosans-regular';
+	src: url(../fonts/notosans-regular.woff);
+	src: url(../fonts/notosans-regular.woff) format('woff'),
+		 url(../fonts/notosans-regular.woff2) format('woff2'),
+		 url(../fonts/notosans-regular.eot) format('eot'),
+		 url(../fonts/notosans-regular.ttf) format('ttf'),
+		 url(../fonts/notosans-regular.svg) format('svg');
+}			
+.title_line h1 {
+	margin-top: 66px;
+	text-align: center;
+	font-family: 'ArvoRegular';
+	font-size: 30px;
+	color: #3b3f6a;
+
+}
+.main_line {
+	padding-top:221px;
+}
+.main_line__column{
+	text-align: center;
+}
+.main_line img {
+	width: 165px;
+	height: 120px;
+	text-align: center;
+	}
+.main_line h2 {
+	font-family: 'ArvoRegular';
+	font-size: 22px;
+	color: #3b3f6a;
+	text-align: center;;
+}
+.main_line p {
+	color: #686c8a;
+	font-size: 20px;
+	font-family: 'notosans-regular'; 
+}
