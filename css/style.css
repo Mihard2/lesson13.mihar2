@@ -1,0 +1,32 @@
+.text-box{
+	padding-top: 2rem;
+}
+.result {
+	margin-bottom: 0;
+	margin-top: 3rem;
+}
+.fonts {
+	font-size: 2rem;
+	text-align: center;
+	padding: 2rem;
+}
+small {
+	font-size: 1.3rem;
+}
+.font_openSans {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 0;
+	margin-top: 3rem;
+}
+.font-sans {
+font-family: 'Open Sans', sans-serif;
+}
+.font-bebas {
+    font-family: 'Bebas',sans-serif;
+}
+.font-lato {
+	font-family: 'Lato', sans-serif;
+}
+.font-lobster {
+	font-family: 'Lobster', cursive;
+}
