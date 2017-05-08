@@ -39,6 +39,7 @@ p {
 .box {
 	margin: 0;
 	padding: 0;
+	overflow: hidden;
 }
 .box:hover .wrap {
   transform: translateX(0%);
