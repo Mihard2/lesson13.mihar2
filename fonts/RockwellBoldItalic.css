@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'RockwellBoldItalic';
-    src: url('fonts/RockwellBoldItalic.eot');
-    src: url('fonts/RockwellBoldItalic.eot') format('embedded-opentype'),
-         url('fonts/RockwellBoldItalic.woff2') format('woff2'),
-         url('fonts/RockwellBoldItalic.woff') format('woff'),
-         url('fonts/RockwellBoldItalic.ttf') format('truetype'),
-         url('fonts/RockwellBoldItalic.svg#RockwellBoldItalic') format('svg');
-}
