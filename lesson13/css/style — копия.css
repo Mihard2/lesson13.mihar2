@@ -1,0 +1,75 @@
+html {
+  font-size: 10px;
+  text-align: center;
+}
+@font-face {
+  font-family: 'PantonExtraBold';
+  src: url('../fonts/PantonExtraBold.eot');
+  src: url('../fonts/PantonExtraBold.eot') format('embedded-opentype'), url('../fonts/PantonExtraBold.woff2') format('woff2'), url('../fonts/PantonExtraBold.woff') format('woff'), url('../fonts/PantonExtraBold.ttf') format('truetype'), url('../fonts/PantonExtraBold.svg#PantonExtraBold') format('svg');
+}
+@font-face {
+  font-family: 'PantonSemiBold';
+  src: url('../fonts/PantonSemiBold.eot');
+  src: url('../fonts/PantonSemiBold.eot') format('embedded-opentype'), url('../fonts/PantonSemiBold.woff2') format('woff2'), url('../fonts/PantonSemiBold.woff') format('woff'), url('../fonts/PantonSemiBold.ttf') format('truetype'), url('../fonts/PantonSemiBold.svg#PantonSemiBold') format('svg');
+}
+@font-face {
+  font-family: 'PantonLight';
+  src: url('../fonts/PantonLight.eot');
+  src: url('../fonts/PantonLight.eot') format('embedded-opentype'), url('../fonts/PantonLight.woff2') format('woff2'), url('../fonts/PantonLight.woff') format('woff'), url('../fonts/PantonLight.ttf') format('truetype'), url('../fonts/PantonLight.svg#PantonLight') format('svg');
+}
+.head_line {
+  height: 13rem;
+  width: 100%;
+  padding-top: 2rem;
+}
+.head_line p {
+  font-family: 'PantonExtraBold';
+  font-size: 2rem;
+}
+.phone_block {
+  padding-top: 1.5rem;
+}
+.phone_block a {
+  text-decoration: none;
+  font-family: 'PantonExtraBold';
+  color: #363636;
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-align: left;
+}
+.phone_block button {
+  border-radius: 1rem;
+  padding: .5rem 2rem;
+  font-family: 'PantonSemiBold';
+  color: #363636;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  background-color: #fff;
+}
+.menu_line {
+  width: 100vw;
+  height: 6rem;
+  background-color: #363636;
+  text-align: center;
+}
+.menu_line li {
+  text-align: center;
+  list-style-type: none;
+  float: left;
+  margin-right: 2rem;
+}
+.menu_line li a {
+  text-decoration: none;
+  font-family: 'PantonLight';
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: left;
+}
+.main {
+  background: url(../images/bg_image.jpg) no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  padding: 11rem 0rem;
+}
